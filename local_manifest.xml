@@ -7,20 +7,20 @@
       <remote name="Ritikk11"
               fetch="https://github.com/Ritikk11"/>
     
-      <remote name="ArrowOS"
-              fetch="https://github.com/ArrowOS" />    
+      <remote name="pix106"
+              fetch="https://github.com/pix106" />    
 
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" /> 
+        <remove-project name="android_hardware_qcom-caf_audio" />
+        <remove-project name="android_hardware_qcom-caf_display" />
+        <remove-project name="android_hardware_qcom-caf_media" />
+        <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_audio" remote="pix106" revision="sdm660-4.19-R-13" />
+        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" remote="pix106" revision="sdm660-4.19-R-13" />
+        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_media" remote="pix106" revision="sdm660-4.19-R-13" /> 
  Trees -->
  
-      <project path="device/xiaomi/lavender" name="device13" remote="Ritikk11" revision="Ritikk11-test"/>
-      <project path="vendor/xiaomi/lavender" name="vendor13" remote="Ritikk11" revision="13"/>
-      <project path="kernel/xiaomi/lavender" name="nexus13" remote="Ritikk11" revision="qti"/>
+      <project path="device/xiaomi/lavender" name="device" remote="Ritikk11" revision="13"/>
+      <project path="vendor/xiaomi/lavender" name="vendor" remote="Ritikk11" revision="13"/>
+      <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="Ritikk11" revision="13"/>
 
 <!-- device settings -->
       <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Ritikk11" revision="lineage-20.0"/>
