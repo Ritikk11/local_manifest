@@ -7,8 +7,7 @@
       <remote name="Ritikk11"
               fetch="https://github.com/Ritikk11"/>
     
-     <remote name="wHo-EM-i"
-          fetch="https://github.com/wHo-EM-i" />    
+     
 
         <!--remove-project name="android_hardware_qcom-caf_audio" />
         <remove-project name="android_hardware_qcom-caf_display" />
