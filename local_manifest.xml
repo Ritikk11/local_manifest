@@ -7,16 +7,19 @@
       <remote name="Ritikk11"
               fetch="https://github.com/Ritikk11"/>
     
-      <remote name="pix106"
-              fetch="https://github.com/pix106" />    
+     <remote name="wHo-EM-i"
+          fetch="https://github.com/wHo-EM-i" />    
 
         <!--remove-project name="android_hardware_qcom-caf_audio" />
         <remove-project name="android_hardware_qcom-caf_display" />
-        <remove-project name="android_hardware_qcom-caf_media" /-->
+        <remove-project name="android_hardware_qcom-caf_media" />
         <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_audio" remote="pix106" revision="sdm660-4.19-R-13" />
         <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" remote="pix106" revision="sdm660-4.19-R-13" />
         <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_media" remote="pix106" revision="sdm660-4.19-R-13" /> 
  Trees -->
+      <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="13-caf-sdm660" remote="wHo-EM-i" clone-depth="1" />
+        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="13-caf_4.19" remote="wHo-EM-i" clone-depth="1" />
+        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" revision="13-caf-sdm660" remote="wHo-EM-i" clone-depth="1" />
  
       <project path="device/xiaomi/lavender" name="device" remote="Ritikk11" revision="13"/>
       <project path="vendor/xiaomi/lavender" name="vendor" remote="Ritikk11" revision="13"/>
