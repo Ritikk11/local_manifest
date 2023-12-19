@@ -7,8 +7,8 @@
       <remote name="Ritikk11"
               fetch="https://github.com/Ritikk11"/>
     
-      <remote name="ArrowOS"
-              fetch="https://github.com/ArrowOS" />    
+      <remote name="kdrag0n"
+              fetch="https://github.com/kdrag0n" />    
 
         <!--remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
@@ -20,16 +20,19 @@
  
       <project path="device/xiaomi/lavender" name="device" remote="Ritikk11" revision="4.4"/>
       <project path="vendor/xiaomi/lavender" name="vendor" remote="Ritikk11" revision="13-4.4"/>
-      <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="Ritikk11" revision="13"/>
+      <project path="kernel/xiaomi/lavender" name="nexus13" remote="Ritikk11" revision="qti"/>
 
 <!-- device settings >
-      <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Ritikk11" revision="lineage-20.0"/>
+      <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Ritikk11" revision="lineage-20.0"/-->
 
      
-      <remove-project path="frameworks/base" />
-      <project path="frameworks/base" name="android_frameworks_base" remote="Ritikk11" revision= "thirteen" clone-depth="1" />
+      <remove-project path="android_vendor_rising" />
+      <project path="vendor/lineage" name="android_vendor_rising" remote="Ritikk11" revision= "thirteen" clone-depth="1" />
+      
+      <project path="prebuilts/clang/kernel/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision= "master" clone-depth="1" />
+      
 
-      <remove-project name="android_packages_apps_SuperiorLab" />
+      <!--remove-project name="android_packages_apps_SuperiorLab" />
       <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="Ritikk11" revision="thirteen" /-->
 
 
