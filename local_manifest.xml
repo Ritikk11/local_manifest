@@ -22,8 +22,8 @@
       <project path="vendor/xiaomi/lavender" name="vendor" remote="Ritikk11" revision="13-4.4"/>
       <project path="kernel/xiaomi/lavender" name="kernel" remote="Ritikk11" revision="4.4-ksu"/>
 
-<!-- device settings >
-      <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Ritikk11" revision="lineage-20.0"/-->
+<!--clang-->
+      <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master"/>
 
      
 
