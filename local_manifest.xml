@@ -12,12 +12,10 @@
     
      
 
-        <!--remove-project name="android_hardware_qcom-caf_audio" />
-        <remove-project name="android_hardware_qcom-caf_display" />
-        <remove-project name="android_hardware_qcom-caf_media" /-->
-        <!--project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_audio" remote="pix106" revision="sdm660-4.19-R-13" />
-        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" remote="pix106" revision="sdm660-4.19-R-13" />
-        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_media" remote="pix106" revision="sdm660-4.19-R-13" /--> 
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        
  Trees -->
         <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="shekhawat2" revision="13-4.19"  clone-depth="1" />
         <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="shekhawat2" revision="sdm660-4.19"  clone-depth="1" />
