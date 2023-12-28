@@ -21,7 +21,7 @@
  Trees -->
         <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="shekhawat2" revision="13-4.19"  clone-depth="1" />
         <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="shekhawat2" revision="sdm660-4.19"  clone-depth="1" />
-        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="shekhawat2" revision="13-4.19"  clone-depth="1" /-->
+        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="shekhawat2" revision="13-4.19"  clone-depth="1" />
  
       <project path="device/xiaomi/lavender" name="device_retro" remote="Ritikk11" revision="4.19-retro"/>
       <project path="vendor/xiaomi/lavender" name="vendor" remote="Ritikk11" revision="13"/>
