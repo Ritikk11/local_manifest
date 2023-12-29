@@ -23,7 +23,7 @@
       <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="Ritikk11" revision="13"/>
 
 <!--clang-->
-      <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master"/>
+      <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth='1' />
 
      
 
