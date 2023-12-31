@@ -28,12 +28,12 @@
      
      <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="Ritikk11" revision="tiramisu"/>
       
-      
+     <project path="packages/apps/GCamGOPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="Ritikk11" revision="tiramisu" />
 
       
 
       <remove-project name="android_packages_apps_SuperiorLab" />
-      <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="Ritikk11" revision="thirteen" /-->
+      <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="Ritikk11" revision="thirteen" />
 
 
 
