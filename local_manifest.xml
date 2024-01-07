@@ -5,7 +5,7 @@
 <!-- Fetching Sources -->
 
       <remote name="Ritikk11"
-              fetch="https://github.com/Ritikk11"/>
+              fetch="https://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@github.com/Ritikk11"/>
     
       <remote name="kdrag0n"
               fetch="https://github.com/kdrag0n" />    
@@ -18,7 +18,7 @@
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" /--> 
  Trees -->
  
-      <project path="device/xiaomi/lavender" name="dt13" remote="Ritikk11" revision="main"/>
+      <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Ritikk11" revision="thirteen"/>
       <project path="vendor/xiaomi/lavender" name="vt" remote="Ritikk11" revision="thirteen"/>
       <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="Ritikk11" revision="13"/>
 
