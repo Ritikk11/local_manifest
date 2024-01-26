@@ -19,7 +19,7 @@
  Trees -->
  
       <project path="device/xiaomi/lavender" name="dt" remote="Ritikk11" revision="retro"/>
-      <project path="vendor/xiaomi/lavender" name="vt1" remote="Ritikk11" revision="thirteen"/>
+      <project path="vendor/xiaomi/lavender" name="vt1" remote="Ritikk11" revision="tiramisu"/>
       <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_sdm660" remote="Ritikk11" revision="13"/>
 
 <!--clang-->
