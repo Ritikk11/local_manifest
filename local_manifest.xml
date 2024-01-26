@@ -20,7 +20,7 @@
  
       <project path="device/xiaomi/lavender" name="dt" remote="Ritikk11" revision="retro"/>
       <project path="vendor/xiaomi/lavender" name="vt1" remote="Ritikk11" revision="tiramisu"/>
-      <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_sdm660" remote="Ritikk11" revision="13"/>
+      <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Ritikk11" revision="13"/>
 
 <!--clang-->
       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth='1' />
