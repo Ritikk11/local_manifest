@@ -5,7 +5,7 @@
 <!-- Fetching Sources -->
 
       <remote name="Ritikk11"
-              fetch="https://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@github.com/Ritikk11"/>
+              fetch="https://github.com/Ritikk11"/>
     
       <remote name="kdrag0n"
               fetch="https://github.com/kdrag0n" />    
