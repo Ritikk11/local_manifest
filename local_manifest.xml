@@ -14,7 +14,7 @@
               fetch="https://github.com/Ahmedhridoy" /> 
 
         
-<-- Trees -->
+<!-- Trees -->
  
       <project path="device/xiaomi/lavender" name="DT10" remote="Ritikk11" revision="10"/>
       <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Ahmedhridoy" revision="10"/>
