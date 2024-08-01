@@ -25,6 +25,6 @@
 <!--clang-->
    <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
 
-
+   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth='1' />
 
 </manifest>
