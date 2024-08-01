@@ -17,7 +17,7 @@
 <!-- Trees -->
  
       <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Ritikk11" revision="ten"/>
-      <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="Ritikk11" revision="ten"/>
+    #  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="Ritikk11" revision="ten"/>
       <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Ahmedhridoy" revision="10"/>
       <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_lavender-common" remote="Ahmedhridoy" revision="10"/>
       <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Ritikk11" revision="ten"/>
